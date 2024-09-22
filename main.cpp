@@ -30,7 +30,7 @@ int main()
     //int atlag;
     int atlag=0;
 
-
+    
     //for (int i = 0; i < N_ELEMENTS, i++)
     for (int i = 0; i < N_ELEMENTS; i++)
     {
@@ -39,8 +39,9 @@ int main()
     }
 
     atlag /= N_ELEMENTS;
-
+    
     std::cout << "Atlag: " << atlag << std::endl;
+    std::cout << "Skibidi Rizzler";
 
     return 0;
 }
